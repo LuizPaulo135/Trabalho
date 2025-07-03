@@ -1,122 +1,59 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="./estilo.css">
-
-<title>Curitiba</title>
+    <meta charset="UTF-8">
+    <title>Minha Página Pessoal</title>
 </head>
 <body>
-<header>
-<nav class="navbar navbar-default">
-  <div class="container">
-   <div class="navbar-header">
-  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-	  <a class="navbar-brand" href="#">Curitiba</a>
-	  </div>
-   <div class="collapse navbar-collapse" id="menu">
-<ul class="nav navbar-nav" >
-<li><a href="#sobre-nos">Sobre nós</a></li>
-<li><a href="#clientes">Galeria</a></li>
-</ul>
-</div>
-</div>
-</nav>
-</header>
-<section class="container">
-<div id="sobre-nos" class="container">
-<h1> Sobre nós</h1>
-<img class="img-responsive" src="./img/sobreNos.jpg"/>
-<h4> Photo by Gabriel Rodrigues on Unsplash</h4>
 
-<div class="panel-group"id="painel-sobre">
-<div class="panel panel-default">
-<div class="panel-heading" data-parent="#painel-sobre" data-toggle="collapse" data-target="#p1">
-<h3 class="panel-title"  > Desde 1693</h3>
-</div>
+    <!-- 1. Título principal -->
+    <h1>Luiz Paulo Honorio Domingues</h1>
 
-<div id="p1"class="collapse">
-<p class="panel-body" > Curitiba é a capital do Paraná, um dos três Estados que compõem a Região Sul do Brasil. Sua fundação oficial data de 29 de março de 1693 </p>
-</div>
-</div>
+    <!-- 2. Parágrafo com autobiografia -->
+    <p>
+        Meu nome é Luiz Paulo Honorio Domingues, tenho 28 anos, moro em Marilândia do sul - PR Gosto de Correr, Desenhar e Treinar.
+    </p>
 
-<div class="panel panel-default">
-<div class="panel-heading" data-parent="#painel-sobre" data-toggle="collapse" data-target="#p2">
-<h3 class="panel-title" > Terra do pinhão</h3>
-</div>
+    <!-- 3. Lista não ordenada com hobbies -->
+    <h2>Meus Hobbies</h2>
+    <ul>
+        <li>Trabalhar com Madeiras</li>
+        <li>Desenhar</li>
+        <li>Assistir filmes</li>
+    </ul>
 
-<div id="p2"class="collapse">
-<p  class="panel-body"> Curitiba é uma palavra de origem Guarani: kur yt yba quer dizer "grande quantidade de pinheiros, pinheiral"</p>
-</div>
-</div>
-<div class="panel panel-default">
-<div class="panel-heading" data-parent="#painel-sobre" data-toggle="collapse" data-target="#p3">
-<h3 class="panel-title"> O inverno em Curitiba</h3>
-</div>
-<div id="p3"class="collapse">
-<p class="panel-body"> A temperatura média da cidade no inverno é de 13 °C, podendo chegar a números negativos nos dias mais frios, de madrugada e de manhã. 
-Os meses de julho e agosto são os mais frios do ano, mas também os menos chuvosos. As manhãs de inverno costumam vir acompanhadas de uma neblina matinal <br>
-fonte: ricmais.com.br
-</p>
-</div>
-</div>
-</div>
-</section>
-<Section class="container">
-<h1 id="clientes" class="titulo-clientes"> Galeria</h1>
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+    <!-- 4. Imagem representando um hobby -->
+    <h2>Imagem de um Hobby</h2>
+    <img src="https://raizcutelaria.com.br/cdn/shop/files/br-11134201-23030-7if12i4wsvov79.jpg?v=1706885144" 
+         alt="Tabuas De Madeira" width="300">
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="./img/foto1.jpg" alt="...">
-      <div class="carousel-caption">
-	  <h3> Photo by Cassiano Psomas on pexels</h3>
-        ...
-      </div>
-    </div>
-    <div class="item">
-      <img src="./img/foto2.jpg" alt="...">
-      <div class="carousel-caption">
-	  <h3> Photo by Koala on Unsplash</h3>
-        ...
-      </div>
-    </div>
-	<div class="item">
-      <img src="./img/foto3.jpg" alt="...">
-      <div class="carousel-caption">
-	   <h3> Photo by Cassiano Psomas on Unsplash</h3>
-        ...
-      </div>
-    </div>
-    ...
-  </div>
+    <!-- 5. Tabela com países que gostaria de visitar -->
+    <h2>Países que gostaria de visitar</h2>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td>EUA</td>
+            <td><img src="https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFzJTIwdmVnYXN8ZW58MHx8MHx8fDA%3D" alt="Vegas" width="200"></td>
+        </tr>
+        <tr>
+            <td>Itália</td>
+            <td><img src="https://benditacidadania.com.br/wp-content/uploads/2021/05/turismo-na-Italia-min.jpg" alt="Itália" width="200"></td>
+        </tr>
+        <tr>
+            <td>Canadá</td>
+            <td><img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/27000/27764-Moraine-Lake.jpg" alt="Canadá" width="200"></td>
+        </tr>
+    </table>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+    <!-- 6. Link para site de interesse -->
+    <h2>Site de Interesse</h2>
+    <p>Confira as últimas novidades em tecnologia no <a href="https://www.tecmundo.com.br" target="_blank">TecMundo</a>.</p>
 
-<script src="./jquery.js"></script>
+</body>
+</html>
 <script src="./bootstrap/js/bootstrap.min.js"></script>
 	
 </body>
